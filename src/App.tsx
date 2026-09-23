@@ -14,22 +14,22 @@ const CONTACT = {
 
 const EXPERIENCE = [
   {
-    role: "Software Developer (Co-op)",
+    role: "Software Developer Co-op",
     company: "JSI Telecom",
-    period: "May 2026 - Present",
-    description: "",
+    period: "May 2026 – Aug 2026",
+    description: "Implemented k6 load tests on the LLM inference service, simulating 50+ concurrent virtual users and 80,000+ requests. Integrated the benchmark suite into GitHub Actions and visualized latency and throughput on Grafana across CI runs. Scaled container pods for an 8M-entry dataset, resolving crashes during load tests."
   },
   {
     role: "Software Developer Co-op",
     company: "JSI Telecom",
-    period: "Sept 2025 - Dec 2025",
-    description: "Developed LLM-powered agents to streamline workflows. Ensured application reliability by writing comprehensive automated tests and documentation. Built monitoring tools to track system performance and improve observability."
+    period: "Sept 2025 – Dec 2025",
+    description: "Developed task-specific LLM agents with LanceDB and Agno, including an FAQ agent and a prompt-alignment verifier. Maintained 95%+ output consistency with DeepEval and a pytest and MkDocs evaluation harness. Instrumented 500+ daily HTTP and gRPC client requests with Prometheus and Grafana, cutting mean time to resolution by 60%."
   },
   {
-    role: "Software Developer Co-op - Incubation",
+    role: "Software Developer Co-op – Incubation",
     company: "Nokia",
-    period: "Jun 2025 - Aug 2025",
-    description: "Worked in an R&D team to create simulation software to test and improve 5G network traffic management. Wrote automated tests to ensure code quality and maintainability. Worked closely within a cross-functional agile team to deliver software features."
+    period: "Jun 2025 – Aug 2025",
+    description: "Built a Python simulation of a 5G traffic-management proof of concept, modeling 7000+ concurrent packet distributions. Added parameterized pytest suites for repeatable validation."
   }
 ];
 
@@ -40,13 +40,6 @@ const PROJECTS = [
     tech: ["TypeScript", "React", "Next.js", "Convex", "Tailwind CSS", "Docker"],
     description: "A 3rd place submission at Ottawa Red Team Hackathon with a tamper-evident supplier attestation flow, a public verification UI, and a backend that computes Canadian content and Made in Canada / Product of Canada status.",
     repo: "https://github.com/AceAtDev/redteam-hack"
-  },
-  {
-    title: "CrashSentryAI",
-    type: "Smart system crash detector (Work in progress)",
-    tech: ["C++", "Python", "PDH Library", "Agno", "QT Creator"],
-    description: "A diagnostic software that proactively monitors and predicts system crashes using PDH library ",
-    repo: ""
   },
   {
     title: "AIsk",
@@ -107,7 +100,7 @@ export default function App() {
                 Hi there!
               </h1>
               <h2 className="mt-3 text-lg sm:text-xl tracking-tight text-brand-ink pr-10">
-                I am {CONTACT.name}. I'm a 3rd-year CS student at Carleton University and full-stack developer, previously worked on backend systems at Nokia and JSI Telecom.
+                I am {CONTACT.name}. I'm a 3rd-year CS student at Carleton University and Software Developer, previously worked on backend systems at Nokia and JSI Telecom.
               </h2>
               
               <nav className="nav hidden lg:block mt-16">
