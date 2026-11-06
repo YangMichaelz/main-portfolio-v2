@@ -17,16 +17,16 @@ const EXPERIENCE = [
     role: "Software Developer Co-op",
     company: "JSI Telecom",
     period: "May 2026 – Aug 2026",
-    description: "Implemented k6 load tests on the LLM inference service, simulating 50+ concurrent virtual users and 80,000+ requests. Integrated the benchmark suite into GitHub Actions and visualized latency and throughput on Grafana across CI runs. Scaled container pods for an 8M-entry dataset, resolving crashes during load tests."
+    description: "Implemented k6 load tests on the LLM inference service, simulating 50+ concurrent virtual users and 80,000+ requests. Integrated the benchmark suite into GitHub Actions and visualized latency and throughput on Grafana across CI runs. Diagnosed bottlenecks erroring out 74% of requests to the LLM inference microservice under 8-million-entry k6 load from in-cluster Kubernetes pods, then scaled replicas via kubectl to cut errors to under 1%."
   },
   {
     role: "Software Developer Co-op",
     company: "JSI Telecom",
     period: "Sept 2025 – Dec 2025",
-    description: "Developed task-specific LLM agents with LanceDB and Agno, including an FAQ agent and a prompt-alignment verifier. Maintained 95%+ output consistency with DeepEval and a pytest and MkDocs evaluation harness. Instrumented 500+ daily HTTP and gRPC client requests with Prometheus and Grafana, cutting mean time to resolution by 60%."
+    description: "Developed task-specific LLM agents with LanceDB and Agno, including an FAQ agent and a prompt-alignment verifier. Maintained 95%+ output consistency with DeepEval, wrote pytest unit and integration tests reaching 90%+ code coverage, and documented the evaluation harness with MkDocs. Instrumented 500+ daily HTTP and gRPC client requests with Prometheus and Grafana, cutting mean time to resolution by 60%."
   },
   {
-    role: "Software Developer Co-op – Incubation",
+    role: "Incubation Developer Co-op",
     company: "Nokia",
     period: "Jun 2025 – Aug 2025",
     description: "Built a Python simulation of a 5G traffic-management proof of concept, modeling 7000+ concurrent packet distributions. Added parameterized pytest suites for repeatable validation."
